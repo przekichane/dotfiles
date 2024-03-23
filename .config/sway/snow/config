@@ -1,0 +1,3 @@
+# Config for snow
+output DP-2 mode 2560x1440@74.924Hz pos 0,0
+output HDMI-A-1 pos -1920,260

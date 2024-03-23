@@ -1,0 +1,21 @@
+configuration {
+    modes: "drun,ssh";
+	font: "Fira Code 12";
+	show-icons: true;
+    icon-theme: "Oranchelo";
+	terminal: "kitty";
+    disable-history: false;
+    hide-scrollbar: true;
+    sidebar-mode: true;
+	ssh-client: "ssh";
+    timeout {
+        action: "kb-cancel";
+        delay:  0;
+    }
+    filebrowser {
+        directories-first: true;
+        sorting-method:    "name";
+    }
+}
+
+@theme "catppuccin-mocha"

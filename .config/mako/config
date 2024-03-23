@@ -1,0 +1,9 @@
+font=Cascadia Code Normal 10
+background-color=#1E1E2E
+text-color=#CDD6F4
+border-color=#1E1E2E
+default-timeout=8000
+max-icon-size=32
+
+[urgency=critical]
+text-color=#CB4B16
