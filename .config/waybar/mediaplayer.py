@@ -122,7 +122,7 @@ class PlayerManager:
         else:
             track_info = title
 
-        if "Twitch" in track_info:
+        if "Twitch" in track_info or "Prime Video" in track_info:
             return
 
         # only print output if no other player is playing
