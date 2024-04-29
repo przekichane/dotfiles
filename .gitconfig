@@ -1,0 +1,22 @@
+[user]
+	name = Bartłomiej Rudecki
+	email = przekichane@icloud.com
+[core]
+    editor = vim
+[color]
+	ui = auto
+[alias]
+	f = fetch
+	cp = cherry-pick
+	s = status
+[url "ssh://git@github.com/"]
+    pushInsteadOf = https://github.com/
+[url "ssh://git@gitlab.com/"]
+    pushInsteadOf = https://gitlab.com/
+[url "ssh://git@kurwica.dev:2022/"]
+    pushInsteadOf = https://git.kurwica.dev/
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

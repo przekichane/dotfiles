@@ -8,7 +8,7 @@ zstyle :compinstall filename '/home/przekichane/.zshrc'
 autoload -Uz compinit
 compinit
 
-[[ -z $DISPLAY ]] && [[ "$(tty)" = "/dev/tty1" ]] && exec sway
+[[ -z $DISPLAY ]] && [[ "$(tty)" = "/dev/tty1" ]] && exec sway --unsupported-gpu
 export XDG_CURRENT_DESKTOP=sway
 
 autoload -Uz vcs_info
@@ -35,5 +35,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias ls='ls --color=auto'
     alias grep='grep --color=auto'
 fi
+
+# Fixes HEAD^ with extendedglob
+unsetopt nomatch
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
