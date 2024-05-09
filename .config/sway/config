@@ -155,4 +155,4 @@ for_window [class="floating"]               floating enable
 for_window [class="Code"] opacity 0.8
 
 include /etc/sway/config.d/*
-include '$HOME/.config/sway/`uname -n`/config'
+include '$HOME/.config/sway.d/`uname -n`/config'
