@@ -1,14 +1,16 @@
 [user]
-	name = Bartłomiej Rudecki
 	email = przekichane@icloud.com
-[core]
-    editor = vim
+	name = Bartłomiej Rudecki
 [color]
 	ui = auto
+[commit]
+	gpgsign = true
 [alias]
 	f = fetch
 	cp = cherry-pick
 	s = status
+[core]
+	editor = nvim
 [url "ssh://git@github.com/"]
     pushInsteadOf = https://github.com/
 [url "ssh://git@gitlab.com/"]

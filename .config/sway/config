@@ -18,7 +18,7 @@ set $lock 'swaylock \
             --inside-color 00000088'
 
 # Output configuration
-output * bg ~/.config/wallpapers/default.jpg fill
+output * bg ~/.config/wallpapers/skibidi.png fill
 
 # Autostart
 # Notifications
@@ -152,7 +152,7 @@ for_window [class="discord"]                floating enable
 for_window [class="Anydesk.bin"]                floating enable
 for_window [class="floating"]               floating enable
 
-for_window [class="Code"] opacity 0.8
+#for_window [class="Code"] opacity 0.8
 
 include /etc/sway/config.d/*
 include '$HOME/.config/sway.d/`uname -n`/config'

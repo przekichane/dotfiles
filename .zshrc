@@ -8,6 +8,7 @@ zstyle :compinstall filename '/home/przekichane/.zshrc'
 autoload -Uz compinit
 compinit
 
+# unsupported-gpu flag for the mighty gigabyte with nvidia
 [[ -z $DISPLAY ]] && [[ "$(tty)" = "/dev/tty1" ]] && exec sway --unsupported-gpu
 export XDG_CURRENT_DESKTOP=sway
 
@@ -38,5 +39,10 @@ fi
 
 # Fixes HEAD^ with extendedglob
 unsetopt nomatch
+
+export LINEAGE_VERSION_APPEND_TIME_OF_DAY=true
+
+alias vi="nvim"
+alias vim="nvim"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
