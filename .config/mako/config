@@ -1,9 +1,12 @@
 font=Cascadia Code Normal 10
-background-color=#1E1E2E
-text-color=#CDD6F4
-border-color=#1E1E2E
 default-timeout=8000
 max-icon-size=32
 
-[urgency=critical]
-text-color=#CB4B16
+# Catppuccin Mocha
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+progress-color=over #313244
+
+[urgency=high]
+border-color=#fab387

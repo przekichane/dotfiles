@@ -15,8 +15,8 @@ opacity = 0.75
 normal = { family = "Fira Code", style = "Regular" }
 size = 11
 
-[cursor]
-style = { shape = "Beam", blinking = "Off" }
+#[cursor]
+#style = { shape = "Beam", blinking = "Off" }
 
 [mouse]
 hide_when_typing = true

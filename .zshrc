@@ -44,5 +44,7 @@ export LINEAGE_VERSION_APPEND_TIME_OF_DAY=true
 
 alias vi="nvim"
 alias vim="nvim"
+alias cat="bat"
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ~/.zsh/catppuccin_mocha-zsh-syntax-highlighting.zsh
