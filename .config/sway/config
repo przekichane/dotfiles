@@ -49,9 +49,13 @@ corner_radius 12
 
 # Sway Theming
 # Catppuccin Mocha
-client.focused          #b4befe #b4befe #b4befe #b4befe #b4befe
-client.unfocused        #1e1e2e #1e1e2e #1e1e2e #1e1e2e #1e1e2e
-client.focused_inactive #313244 #313244 #313244 #313244 #313244
+include $HOME/.config/sway/themes/catppuccin-mocha
+client.focused           $lavender $base $text  $rosewater $lavender
+client.focused_inactive  $overlay0 $base $text  $rosewater $overlay0
+client.unfocused         $overlay0 $base $text  $rosewater $overlay0
+client.urgent            $peach    $base $peach $overlay0  $peach
+client.placeholder       $overlay0 $base $text  $overlay0  $overlay0
+client.background        $base
 
 ### Key bindings
 bindsym $mod+Return exec $term
