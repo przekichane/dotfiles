@@ -47,7 +47,6 @@
         "interval": 1
     },
     "network": {
-        "interface": "enp10s0",
         "format-wifi": "{essid} ({signalStrength}%) ",
         "format-ethernet": "{ipaddr}",
         "tooltip-format": "{ipaddr} via {ifname}",

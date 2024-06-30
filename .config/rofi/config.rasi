@@ -1,13 +1,14 @@
 configuration {
-    modes: "drun,ssh";
+    modes: "drun";
 	font: "Fira Code 12";
 	show-icons: true;
     icon-theme: "Oranchelo";
-	terminal: "kitty";
+	terminal: "alacritty";
     disable-history: false;
     hide-scrollbar: true;
     sidebar-mode: true;
 	ssh-client: "ssh";
+    drun-display-format: "{icon} {name}";
     timeout {
         action: "kb-cancel";
         delay:  0;
@@ -16,6 +17,8 @@ configuration {
         directories-first: true;
         sorting-method:    "name";
     }
+    display-drun: "   Apps ";
+    location: 0;
 }
 
 @theme "catppuccin-mocha"
