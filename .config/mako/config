@@ -1,6 +1,7 @@
 font=Cascadia Code Normal 10
 default-timeout=8000
 max-icon-size=32
+layer=overlay
 
 # Catppuccin Mocha
 background-color=#1e1e2e
